@@ -11,7 +11,9 @@ Proportional Controller:
 PID Controller:
 ![PID](https://user-images.githubusercontent.com/96636782/161469374-df9359ec-628d-4f4c-b459-09bc4f990db9.png)
 The difference equation of integral and derivative parts are obtained based on forward rectangular rule:
+
 ![inte](https://user-images.githubusercontent.com/96636782/161469547-6fac34f8-6054-45e8-a5a1-8e6209c6e112.png)
+
 ![dera](https://user-images.githubusercontent.com/96636782/161469562-d9dccad6-b5bd-40e8-ac60-acfff5daa45b.png)
 
 # Part B: Anti-windup PID controller
@@ -19,6 +21,7 @@ An anti-windup control scheme is utilized to overcome the problem of integrator 
 ## Theory
 ![anti](https://user-images.githubusercontent.com/96636782/161469709-5c02b7cf-28b4-46ee-9c7d-5e99e2eb1b40.png)
 ![act](https://user-images.githubusercontent.com/96636782/161469791-4bb9c92e-43e2-4f47-9e0e-0a563c9e4896.png)
+
 New intgrator equation:
 ![newI](https://user-images.githubusercontent.com/96636782/161469828-2bb7db00-36d7-4ee2-b936-dec9ca63ec74.png)
 
