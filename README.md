@@ -13,6 +13,7 @@ Proportional Controller:
 ![proportional](https://user-images.githubusercontent.com/96636782/161469223-d74f8a6c-69f6-4990-a017-55f66c5b2e9b.png)
 
 PID Controller:
+
 ![PID](https://user-images.githubusercontent.com/96636782/161469374-df9359ec-628d-4f4c-b459-09bc4f990db9.png)
 
 The difference equation of integral and derivative parts are obtained based on forward rectangular rule:
