@@ -28,7 +28,7 @@ An anti-windup control scheme is utilized to overcome the problem of integrator 
 ![anti](https://user-images.githubusercontent.com/96636782/161469709-5c02b7cf-28b4-46ee-9c7d-5e99e2eb1b40.png)
 ![act](https://user-images.githubusercontent.com/96636782/161469791-4bb9c92e-43e2-4f47-9e0e-0a563c9e4896.png)
 
-New intgrator equation:
+Intgrator with anti-windup:
 
 
 ![newI](https://user-images.githubusercontent.com/96636782/161469828-2bb7db00-36d7-4ee2-b936-dec9ca63ec74.png)
