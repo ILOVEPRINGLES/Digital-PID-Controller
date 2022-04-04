@@ -34,4 +34,4 @@ Intgrator with anti-windup:
 ![newI](https://user-images.githubusercontent.com/96636782/161469828-2bb7db00-36d7-4ee2-b936-dec9ca63ec74.png)
 
 # Part C: further extension
-In previous steps, the control algorithm is set to be running for a certain amount of period only when all the settings are static. By removing the mutex application, the algorithm can be running continuously while the settings such as Ti, Td, Kp, N, etc, can be manipulated interactively and immediately displayed on the plot.
+In previous steps, the control algorithm is set to be running for a certain amount of period only when all the settings are static. By removing the mutex application, the algorithm can be running continuously while the settings such as Ti, Td, Kp, N, Fs, can be manipulated interactively and immediately displayed on the plot.
