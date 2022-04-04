@@ -3,9 +3,12 @@ The objective of this project is to design an implement a digital PID controller
 
 # Part A: Basic PID controller
 ## Theory
+
 ![1](https://user-images.githubusercontent.com/96636782/161468853-e82279c7-9904-4810-abe9-d00adbab3e5b.png)
 Proportional Controller:
+
 ![p1](https://user-images.githubusercontent.com/96636782/161469318-e3fe02f6-a799-417c-861b-e99f76241834.png)
+
 ![proportional](https://user-images.githubusercontent.com/96636782/161469223-d74f8a6c-69f6-4990-a017-55f66c5b2e9b.png)
 
 PID Controller:
@@ -23,6 +26,8 @@ An anti-windup control scheme is utilized to overcome the problem of integrator 
 ![act](https://user-images.githubusercontent.com/96636782/161469791-4bb9c92e-43e2-4f47-9e0e-0a563c9e4896.png)
 
 New intgrator equation:
+
+
 ![newI](https://user-images.githubusercontent.com/96636782/161469828-2bb7db00-36d7-4ee2-b936-dec9ca63ec74.png)
 
 # Part C: further extension
