@@ -5,6 +5,7 @@ The objective of this project is to design an implement a digital PID controller
 ## Theory
 
 ![1](https://user-images.githubusercontent.com/96636782/161468853-e82279c7-9904-4810-abe9-d00adbab3e5b.png)
+
 Proportional Controller:
 
 ![p1](https://user-images.githubusercontent.com/96636782/161469318-e3fe02f6-a799-417c-861b-e99f76241834.png)
@@ -13,6 +14,7 @@ Proportional Controller:
 
 PID Controller:
 ![PID](https://user-images.githubusercontent.com/96636782/161469374-df9359ec-628d-4f4c-b459-09bc4f990db9.png)
+
 The difference equation of integral and derivative parts are obtained based on forward rectangular rule:
 
 ![inte](https://user-images.githubusercontent.com/96636782/161469547-6fac34f8-6054-45e8-a5a1-8e6209c6e112.png)
