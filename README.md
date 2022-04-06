@@ -1,7 +1,7 @@
 # Digital-PID-Controller
 The objective of this project is to design an implement a digital PID controllers (basic and anti-windup) to control the position of a DC motor using concurrent programming with Pthreads.
 
-# Part A: Basic PID controller
+# Part A: Basic PID controller (file: pid.c)
 ## Theory
 
 ![1](https://user-images.githubusercontent.com/96636782/161468853-e82279c7-9904-4810-abe9-d00adbab3e5b.png)
@@ -22,7 +22,7 @@ The difference equation of integral and derivative parts are obtained based on f
 
 ![dera](https://user-images.githubusercontent.com/96636782/161469562-d9dccad6-b5bd-40e8-ac60-acfff5daa45b.png)
 
-# Part B: Anti-windup PID controller
+# Part B: Anti-windup PID controller (file: pid_anti.c)
 An anti-windup control scheme is utilized to overcome the problem of integrator windup.
 ## Theory
 ![anti](https://user-images.githubusercontent.com/96636782/161469709-5c02b7cf-28b4-46ee-9c7d-5e99e2eb1b40.png)
@@ -33,5 +33,5 @@ Intgrator with anti-windup:
 
 ![newI](https://user-images.githubusercontent.com/96636782/161469828-2bb7db00-36d7-4ee2-b936-dec9ca63ec74.png)
 
-# Part C: further extension
+# Part C: further extension (file: pid_ext.c)
 In previous steps, the control algorithm is set to be running for a certain amount of period only when all the settings are static. By removing the mutex application, the algorithm can be running continuously while the settings such as Ti, Td, Kp, N, Fs, can be manipulated interactively and immediately displayed on the plot.
