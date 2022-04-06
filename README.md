@@ -1,5 +1,5 @@
 # Digital-PID-Controller
-The objective of this project is to design an implement a digital PID controllers (basic and anti-windup) to control the position of a DC motor using concurrent programming with Pthreads.
+The objective of this project is to design and implement a digital PID controllers (basic and anti-windup) to control the position of a DC motor using concurrent programming with Pthreads.
 
 # Part A: Basic PID controller (file: pid.c)
 ## Theory
